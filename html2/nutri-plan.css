@@ -1,0 +1,1761 @@
+.nutri-plan-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.nutri-plan-nutri-plan {
+  width: 100%;
+  height: 3005px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(61, 87, 94, 1);
+}
+ 
+.nutri-plan-unsplash748-mai03sjy {
+  top: 513px;
+  left: 436px;
+  width: 293px;
+  height: 341px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash7yb08bm-yhm-q {
+  top: 852px;
+  left: 70px;
+  width: 284px;
+  height: 330px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash-tkzdk-vn1-ay-a {
+  top: 522px;
+  left: 804px;
+  width: 284px;
+  height: 330px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash-rhy-sf-xb0-wa0 {
+  top: 522px;
+  left: 1175px;
+  width: 281px;
+  height: 330px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle34 {
+  top: 816px;
+  left: 1175px;
+  width: 115px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.nutri-plan-text10 {
+  top: 867px;
+  left: 121px;
+  color: rgba(217, 217, 217, 1);
+  width: 195px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text11 {
+  top: 1358px;
+  left: 142px;
+  color: rgba(217, 217, 217, 1);
+  width: 140px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text12 {
+  top: 1867px;
+  left: 145px;
+  color: rgba(217, 217, 217, 1);
+  width: 165px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text13 {
+  top: 2371px;
+  left: 137px;
+  color: rgba(217, 217, 217, 1);
+  width: 165px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text14 {
+  top: 1867px;
+  left: 546px;
+  color: rgba(217, 217, 217, 1);
+  width: 107px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text15 {
+  top: 2371px;
+  left: 492px;
+  color: rgba(217, 217, 217, 1);
+  width: 216px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text16 {
+  top: 2371px;
+  left: 866px;
+  color: rgba(217, 217, 217, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text17 {
+  top: 2371px;
+  left: 1206px;
+  color: rgba(217, 217, 217, 1);
+  width: 208px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text18 {
+  top: 1867px;
+  left: 916px;
+  color: rgba(217, 217, 217, 1);
+  width: 99px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text19 {
+  top: 1865px;
+  left: 1291px;
+  color: rgba(217, 217, 217, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text20 {
+  top: 1358px;
+  left: 489px;
+  color: rgba(217, 217, 217, 1);
+  width: 197px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text21 {
+  top: 1358px;
+  left: 893px;
+  color: rgba(217, 217, 217, 1);
+  width: 106px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text22 {
+  top: 1358px;
+  left: 1213px;
+  color: rgba(217, 217, 217, 1);
+  width: 212px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text23 {
+  top: 867px;
+  left: 862px;
+  color: rgba(217, 217, 217, 1);
+  width: 168px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text24 {
+  top: 867px;
+  left: 1195px;
+  color: rgba(217, 217, 217, 1);
+  width: 254px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text25 {
+  top: 867px;
+  left: 429px;
+  color: rgba(217, 217, 217, 1);
+  width: 306px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-rectangle30 {
+  top: 811px;
+  left: 70px;
+  width: 118px;
+  height: 41px;
+  position: absolute;
+}
+ 
+.nutri-plan-group32 {
+  top: 805.60546875px;
+  left: 62.00390625px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image210 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text26 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-rectangle32 {
+  top: 816px;
+  left: 434px;
+  width: 115px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle33 {
+  top: 816px;
+  left: 804px;
+  width: 116px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.nutri-plan-group33 {
+  top: 807.892578125px;
+  left: 427.904296875px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image211 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text27 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group34 {
+  top: 807.892578125px;
+  left: 799.5224609375px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image212 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text28 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group35 {
+  top: 805.60546875px;
+  left: 1166.56640625px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image213 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text29 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-unsplashwrf-o9s-wykd-e {
+  top: 1075px;
+  left: 71px;
+  width: 297px;
+  height: 268px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash-j04bd4ysoh8 {
+  top: 1075px;
+  left: 446px;
+  width: 284px;
+  height: 268px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash-mq-t0asuo-ic-u {
+  top: 1075px;
+  left: 820px;
+  width: 269px;
+  height: 268px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash-rel-ovb0rr-ce {
+  top: 1075px;
+  left: 1183px;
+  width: 274px;
+  height: 268px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle35 {
+  top: 1309px;
+  left: 71px;
+  width: 114px;
+  height: 34px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle36 {
+  top: 1309px;
+  left: 446px;
+  width: 115px;
+  height: 34px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle37 {
+  top: 1309px;
+  left: 820px;
+  width: 114px;
+  height: 34px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle38 {
+  top: 1309px;
+  left: 1183px;
+  width: 114px;
+  height: 34px;
+  position: absolute;
+}
+ 
+.nutri-plan-group36 {
+  top: 1299.5634765625px;
+  left: 66.578125px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image214 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text30 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group37 {
+  top: 1299.5634765625px;
+  left: 810.95703125px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image215 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text31 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group39 {
+  top: 1299.5634765625px;
+  left: 1174.5703125px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image216 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text32 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group38 {
+  top: 1299.5634765625px;
+  left: 443.9130859375px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image217 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text33 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-image4 {
+  top: 1581px;
+  left: 71px;
+  width: 284px;
+  height: 271px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplasho-da9n1dpd9w {
+  top: 1581px;
+  left: 1188px;
+  width: 269px;
+  height: 271px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle39 {
+  top: 1822px;
+  left: 69px;
+  width: 102px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash-i-gf-igp5onv0 {
+  top: 1583px;
+  left: 446px;
+  width: 280px;
+  height: 268px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplashfx-j-tlg-dh28 {
+  top: 1583px;
+  left: 820px;
+  width: 280px;
+  height: 268px;
+  position: absolute;
+}
+ 
+.nutri-plan-group40 {
+  top: 1813.529296875px;
+  left: 54px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image218 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text34 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-rectangle40 {
+  top: 1818px;
+  left: 446px;
+  width: 102px;
+  height: 37px;
+  position: absolute;
+}
+ 
+.nutri-plan-group41 {
+  top: 1810.0986328125px;
+  left: 431.3349609375px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image219 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text35 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-rectangle41 {
+  top: 1814px;
+  left: 825px;
+  width: 101px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.nutri-plan-group42 {
+  top: 1805.525390625px;
+  left: 809.8134765625px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image220 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text36 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-rectangle42 {
+  top: 1815px;
+  left: 1189px;
+  width: 102px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.nutri-plan-group43 {
+  top: 1806.66796875px;
+  left: 1174.5703125px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image221 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text37 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-image5 {
+  top: 2069px;
+  left: 444px;
+  width: 279px;
+  height: 288px;
+  position: absolute;
+}
+ 
+.nutri-plan-image6 {
+  top: 2074px;
+  left: 71px;
+  width: 284px;
+  height: 288px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle43 {
+  top: 2325px;
+  left: 71px;
+  width: 102px;
+  height: 37px;
+  position: absolute;
+}
+ 
+.nutri-plan-group44 {
+  top: 2318.232421875px;
+  left: 56.287109375px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image222 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text38 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-rectangle47 {
+  top: 2321px;
+  left: 444px;
+  width: 102px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash7-te-r1a1m-up-m {
+  top: 2070px;
+  left: 813px;
+  width: 283px;
+  height: 296px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle46 {
+  top: 2330px;
+  left: 813px;
+  width: 102px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.nutri-plan-unsplash-q5m-pp-gld5-zk {
+  top: 2070px;
+  left: 1169px;
+  width: 282px;
+  height: 296px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle45 {
+  top: 2332px;
+  left: 1169px;
+  width: 102px;
+  height: 37px;
+  position: absolute;
+}
+ 
+.nutri-plan-group45 {
+  top: 2312.515625px;
+  left: 434.765625px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image223 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text39 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group46 {
+  top: 2320.51953125px;
+  left: 799.5224609375px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image224 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text40 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group47 {
+  top: 2321.662109375px;
+  left: 1153.98828125px;
+  width: 116.63080596923828px;
+  height: 53.74164581298828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-image225 {
+  top: 0px;
+  left: 0px;
+  width: 51px;
+  height: 54px;
+  position: absolute;
+}
+ 
+.nutri-plan-text41 {
+  top: 13.721271514892578px;
+  left: 45.737571716308594px;
+  color: rgba(69, 69, 69, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-rectangle48 {
+  top: 178px;
+  left: 70px;
+  width: 930px;
+  height: 65px;
+  position: absolute;
+  border-radius: 30px;
+}
+ 
+.nutri-plan-text42 {
+  top: 191px;
+  left: 95px;
+  color: rgba(124, 118, 118, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: italic;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-rectangle18 {
+  top: 2612px;
+  left: 0px;
+  width: 1512px;
+  height: 393px;
+  position: absolute;
+}
+ 
+.nutri-plan-text43 {
+  top: 2667px;
+  left: 525px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text44 {
+  top: 2754px;
+  left: 821px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text45 {
+  top: 2797px;
+  left: 821px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text46 {
+  top: 2944px;
+  left: 1160px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text47 {
+  top: 2729px;
+  left: 525px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text48 {
+  top: 2791px;
+  left: 525px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text49 {
+  top: 2853px;
+  left: 525px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text50 {
+  top: 2915px;
+  left: 525px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-text51 {
+  top: 2754px;
+  left: 110px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group8 {
+  top: 2822px;
+  left: 97px;
+  width: 215px;
+  height: 61px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 127, 0, 1);
+}
+ 
+.nutri-plan-text52 {
+  top: 15px;
+  left: 31px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group6 {
+  top: 2690px;
+  left: 148px;
+  width: 68px;
+  height: 67px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-natural-food1 {
+  top: 12.046793937683105px;
+  left: 13.675772666931152px;
+  width: 42px;
+  height: 37px;
+  position: absolute;
+}
+ 
+.nutri-plan-synchronize1 {
+  top: 0px;
+  left: 36.0169792175293px;
+  width: 40px;
+  height: 17px;
+  position: absolute;
+}
+ 
+.nutri-plan-synchronize2 {
+  top: 30.284326553344727px;
+  left: 12.416620254516602px;
+  width: 40px;
+  height: 18px;
+  position: absolute;
+}
+ 
+.nutri-plan-group7 {
+  top: 2664px;
+  left: 1227px;
+  width: 158.32830810546875px;
+  height: 155.99966430664062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-natural-food2 {
+  top: 28.049440383911133px;
+  left: 31.842103958129883px;
+  width: 98px;
+  height: 86px;
+  position: absolute;
+}
+ 
+.nutri-plan-synchronize3 {
+  top: 0px;
+  left: 83.86038970947266px;
+  width: 93px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.nutri-plan-synchronize4 {
+  top: 70.51242065429688px;
+  left: 28.91033935546875px;
+  width: 94px;
+  height: 43px;
+  position: absolute;
+}
+ 
+.nutri-plan-text53 {
+  top: 2805px;
+  left: 1171px;
+  color: rgba(255, 255, 255, 1);
+  width: 291px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-search {
+  top: 184px;
+  left: 920px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+}
+ 
+.nutri-plan-group77 {
+  top: 196px;
+  left: 1347px;
+  width: 111px;
+  height: 107px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-group761 {
+  top: 0px;
+  left: 0px;
+  width: 111px;
+  height: 107px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-frame25 {
+  top: 0px;
+  left: 0px;
+  width: 111px;
+  height: 107px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.nutri-plan-group751 {
+  top: 16px;
+  left: 18px;
+  width: 84px;
+  height: 82px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-group741 {
+  top: 0px;
+  left: 0px;
+  width: 84px;
+  height: 82px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-ellipse40 {
+  top: 0px;
+  left: 0px;
+  width: 84px;
+  height: 82px;
+  position: absolute;
+}
+ 
+.nutri-plan-group762 {
+  top: 28px;
+  left: 31px;
+  width: 59px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-group752 {
+  top: 0px;
+  left: 0px;
+  width: 59px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-group742 {
+  top: 0px;
+  left: 0px;
+  width: 59px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-robot2 {
+  top: 0px;
+  left: 0px;
+  width: 59px;
+  height: 59px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle125 {
+  top: 0px;
+  left: 0px;
+  width: 1512px;
+  height: 161px;
+  position: absolute;
+}
+ 
+.nutri-plan-frame19 {
+  top: 44px;
+  left: 121px;
+  width: 153px;
+  height: 81px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.nutri-plan-group10 {
+  top: 0px;
+  left: 0px;
+  width: 143px;
+  height: 81px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-text54 {
+  top: 52px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group5 {
+  top: 0px;
+  left: 26px;
+  width: 68px;
+  height: 67px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-natural-food3 {
+  top: 12.046793937683105px;
+  left: 13.675772666931152px;
+  width: 42px;
+  height: 37px;
+  position: absolute;
+}
+ 
+.nutri-plan-synchronize5 {
+  top: 0px;
+  left: 36.0169792175293px;
+  width: 40px;
+  height: 17px;
+  position: absolute;
+}
+ 
+.nutri-plan-synchronize6 {
+  top: 30.284326553344727px;
+  left: 12.416620254516602px;
+  width: 40px;
+  height: 18px;
+  position: absolute;
+}
+ 
+.nutri-plan-rectangle29 {
+  top: 61px;
+  left: 316px;
+  width: 888px;
+  height: 58px;
+  position: absolute;
+  border-radius: 20px;
+}
+ 
+.nutri-plan-frame20 {
+  top: 75px;
+  left: 358px;
+  width: 69px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.nutri-plan-text55 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-frame21 {
+  top: 75px;
+  left: 643px;
+  width: 169px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.nutri-plan-text56 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-frame22 {
+  top: 75px;
+  left: 883px;
+  width: 87px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.nutri-plan-text57 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-frame23 {
+  top: 75px;
+  left: 1041px;
+  width: 142px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.nutri-plan-text58 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.nutri-plan-group78 {
+  top: 56px;
+  left: 1303px;
+  width: 88px;
+  height: 83px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.nutri-plan-ellipse23 {
+  top: 0px;
+  left: 0px;
+  width: 88px;
+  height: 83px;
+  position: absolute;
+}
+ 
+.nutri-plan-customer {
+  top: 12px;
+  left: 15px;
+  width: 58px;
+  height: 52px;
+  position: absolute;
+}
+ 
+.nutri-plan-text59 {
+  top: 75px;
+  left: 499px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

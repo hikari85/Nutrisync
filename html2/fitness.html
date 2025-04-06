@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./fitness.css" rel="stylesheet" />
+
+      <div class="fitness-container">
+        <div class="fitness-fitness">
+          <div class="fitness-group72">
+            <span class="fitness-text10">“Search for workouts...”</span>
+          </div>
+          <img
+            src="public/external/rectangle187123-hwk-1600w.png"
+            alt="Rectangle187123"
+            class="fitness-rectangle18"
+          />
+          <span class="fitness-text11">Home</span>
+          <span class="fitness-text12">AI chat suggestions</span>
+          <span class="fitness-text13">Dashboard</span>
+          <span class="fitness-text14">Contact: +914567891010</span>
+          <span class="fitness-text15">About us</span>
+          <span class="fitness-text16">Meal Plans</span>
+          <span class="fitness-text17">Recipes</span>
+          <span class="fitness-text18">Contact Us</span>
+          <span class="fitness-text19">NUTRISYNC</span>
+          <div class="fitness-group8">
+            <span class="fitness-text20">Start Today</span>
+          </div>
+          <div class="fitness-group6">
+            <img
+              src="public/external/naturalfood7125-8zz-200h.png"
+              alt="NaturalFood7125"
+              class="fitness-natural-food1"
+            />
+            <img
+              src="public/external/synchronize7125-can-200h.png"
+              alt="Synchronize7125"
+              class="fitness-synchronize1"
+            />
+            <img
+              src="public/external/synchronize7125-oila-200h.png"
+              alt="Synchronize7125"
+              class="fitness-synchronize2"
+            />
+          </div>
+          <div class="fitness-group7">
+            <img
+              src="public/external/naturalfood7125-m8go-200h.png"
+              alt="NaturalFood7125"
+              class="fitness-natural-food2"
+            />
+            <img
+              src="public/external/synchronize7125-kcur-200h.png"
+              alt="Synchronize7125"
+              class="fitness-synchronize3"
+            />
+            <img
+              src="public/external/synchronize7125-6yb-200h.png"
+              alt="Synchronize7125"
+              class="fitness-synchronize4"
+            />
+          </div>
+          <span class="fitness-text21">
+            Your Personalized Path to a Healthier Life!
+          </span>
+          <div class="fitness-frame3">
+            <img
+              src="public/external/unsplashkh9xapwktm07126-jb5-400w.png"
+              alt="unsplashkh9XApwKtm07126"
+              class="fitness-unsplashkh9x-apw-ktm0"
+            />
+            <img
+              src="public/external/unsplashhwhhq82enf07126-9gc-400w.png"
+              alt="unsplashhwHHq82Enf07126"
+              class="fitness-unsplashhw-h-hq82-enf0"
+            />
+            <img
+              src="public/external/unsplashcacnejwypa7126-54m-400w.png"
+              alt="unsplashCaCneJwypA7126"
+              class="fitness-unsplash-ca-cne-jwyp-a"
+            />
+            <img
+              src="public/external/unsplashoaabeywmuu7126-ugse-400w.png"
+              alt="unsplashOaABeYwmUU7126"
+              class="fitness-unsplash-oa-a-be-ywm-uu"
+            />
+            <span class="fitness-text22">YOGA</span>
+            <span class="fitness-text23">BOXING</span>
+            <span class="fitness-text24">STRENGTH</span>
+            <span class="fitness-text25">DANCE</span>
+            <div class="fitness-group18">
+              <span class="fitness-text26">BOOK CLASS</span>
+            </div>
+            <div class="fitness-group19">
+              <span class="fitness-text27">BOOK CLASS</span>
+            </div>
+            <div class="fitness-group20">
+              <span class="fitness-text28">BOOK CLASS</span>
+            </div>
+            <div class="fitness-group21">
+              <span class="fitness-text29">BOOK CLASS</span>
+            </div>
+          </div>
+          <div class="fitness-frame8">
+            <div class="fitness-group48">
+              <div class="fitness-frame4">
+                <div class="fitness-group32">
+                  <img
+                    src="public/external/unsplashxb4exgcuai07128-9pqyh-500w.png"
+                    alt="unsplashxB4ExGcUai07128"
+                    class="fitness-unsplashx-b4-ex-gc-uai0"
+                  />
+                  <img
+                    src="public/external/unsplashlrqptqs7nqq7128-u69-500w.png"
+                    alt="unsplashlrQPTQs7nQQ7128"
+                    class="fitness-unsplashlr-qpt-qs7n-qq"
+                  />
+                  <img
+                    src="public/external/unsplashklwtumje8ho7129-ydob-500w.png"
+                    alt="unsplashklWtuMJE8Ho7129"
+                    class="fitness-unsplashkl-wtu-mje8-ho1"
+                  />
+                  <img
+                    src="public/external/unsplashklwtumje8ho7129-ewmg-500w.png"
+                    alt="unsplashklWtuMJE8Ho7129"
+                    class="fitness-unsplashkl-wtu-mje8-ho2"
+                  />
+                  <img
+                    src="public/external/unsplashnhdak0au07129-eiw-500w.png"
+                    alt="unsplashnhDaK0aU07129"
+                    class="fitness-unsplashnh-da-k0a-u0"
+                  />
+                  <img
+                    src="public/external/unsplashron57cbgymo7129-n6c-500w.png"
+                    alt="unsplashrOn57CBgyMo7129"
+                    class="fitness-unsplashr-on57c-bgy-mo"
+                  />
+                  <div class="fitness-group23">
+                    <span class="fitness-text30">Watch</span>
+                  </div>
+                  <div class="fitness-group24">
+                    <span class="fitness-text31">Watch</span>
+                  </div>
+                  <div class="fitness-group27">
+                    <span class="fitness-text32">Watch</span>
+                  </div>
+                  <div class="fitness-group26">
+                    <span class="fitness-text33">Watch</span>
+                  </div>
+                  <div class="fitness-group25">
+                    <span class="fitness-text34">Watch</span>
+                  </div>
+                  <div class="fitness-group22">
+                    <img
+                      src="public/external/image27131-61p-200w.png"
+                      alt="image27131"
+                      class="fitness-image21"
+                    />
+                    <span class="fitness-text35">20 mins</span>
+                  </div>
+                  <div class="fitness-group281">
+                    <img
+                      src="public/external/image27131-pxb8-200w.png"
+                      alt="image27131"
+                      class="fitness-image22"
+                    />
+                    <span class="fitness-text36">20 mins</span>
+                  </div>
+                  <div class="fitness-group30">
+                    <img
+                      src="public/external/image27131-0djg-200h.png"
+                      alt="image27131"
+                      class="fitness-image23"
+                    />
+                    <span class="fitness-text37">20 mins</span>
+                  </div>
+                  <div class="fitness-group31">
+                    <img
+                      src="public/external/image27131-d6s8-200h.png"
+                      alt="image27131"
+                      class="fitness-image24"
+                    />
+                    <span class="fitness-text38">20 mins</span>
+                  </div>
+                  <div class="fitness-group29">
+                    <img
+                      src="public/external/image27132-joh4-200w.png"
+                      alt="image27132"
+                      class="fitness-image25"
+                    />
+                    <span class="fitness-text39">20 mins</span>
+                    <div class="fitness-group282">
+                      <img
+                        src="public/external/image27132-wzdd-200w.png"
+                        alt="image27132"
+                        class="fitness-image26"
+                      />
+                      <span class="fitness-text40">20 mins</span>
+                    </div>
+                  </div>
+                  <span class="fitness-text41">YOGA</span>
+                  <span class="fitness-text42">CARDIO</span>
+                  <span class="fitness-text43">DANCE</span>
+                  <span class="fitness-text44">STRENGTH</span>
+                  <span class="fitness-text45">MEDITATION</span>
+                </div>
+              </div>
+              <span class="fitness-text46">Beginner</span>
+              <span class="fitness-text47">Beginner</span>
+              <span class="fitness-text48">Beginner</span>
+              <span class="fitness-text49">Intermediate</span>
+              <span class="fitness-text50">Intermediate</span>
+            </div>
+          </div>
+          <img
+            src="public/external/rectangle137133-nbrn-200h.png"
+            alt="Rectangle137133"
+            class="fitness-rectangle13"
+          />
+          <span class="fitness-text51">
+            Do I need gym equipment to follow the workouts?
+          </span>
+          <img
+            src="public/external/rectangle147133-0fac-200h.png"
+            alt="Rectangle147133"
+            class="fitness-rectangle14"
+          />
+          <span class="fitness-text52">How often should I work out?</span>
+          <img
+            src="public/external/expandarrow7134-cz5m-200w.png"
+            alt="ExpandArrow7134"
+            class="fitness-expand-arrow10"
+          />
+          <img
+            src="public/external/expandarrow7134-a4gt-200h.png"
+            alt="ExpandArrow7134"
+            class="fitness-expand-arrow11"
+          />
+          <img
+            src="public/external/expandarrow7134-8u27-200h.png"
+            alt="ExpandArrow7134"
+            class="fitness-expand-arrow12"
+          />
+          <img
+            src="public/external/rectangle157134-0f6u-200h.png"
+            alt="Rectangle157134"
+            class="fitness-rectangle15"
+          />
+          <span class="fitness-text53">
+            How do I know if I’m doing exercises correctly?
+          </span>
+          <img
+            src="public/external/expandarrow7134-t3u9-200w.png"
+            alt="ExpandArrow7134"
+            class="fitness-expand-arrow13"
+          />
+          <img
+            src="public/external/rectangle167134-kf15-200h.png"
+            alt="Rectangle167134"
+            class="fitness-rectangle16"
+          />
+          <span class="fitness-text54">
+            What’s the best workout for weight loss?
+          </span>
+          <img
+            src="public/external/expandarrow7134-13lq-200w.png"
+            alt="ExpandArrow7134"
+            class="fitness-expand-arrow14"
+          />
+          <img
+            src="public/external/rectangle177135-o62q-200h.png"
+            alt="Rectangle177135"
+            class="fitness-rectangle17"
+          />
+          <span class="fitness-text55">How can I track my progress?</span>
+          <img
+            src="public/external/expandarrow7135-m61-200w.png"
+            alt="ExpandArrow7135"
+            class="fitness-expand-arrow15"
+          />
+          <div class="fitness-component1">
+            <div class="fitness-frame9">
+              <div class="fitness-group60">
+                <img
+                  src="public/external/image18i713-hbyv-300h.png"
+                  alt="image18I713"
+                  class="fitness-image18"
+                />
+                <span class="fitness-text56">21 days yoga challenge</span>
+                <span class="fitness-text57">Beginner to Intermediate</span>
+                <img
+                  src="public/external/rectangle58i713-y76-200h.png"
+                  alt="Rectangle58I713"
+                  class="fitness-rectangle58"
+                />
+                <span class="fitness-text58">Join</span>
+              </div>
+              <div class="fitness-group59">
+                <span class="fitness-text59">10 days dance challenge</span>
+                <span class="fitness-text60">Intermediate</span>
+                <img
+                  src="public/external/rectangle56i713-nvbn-200h.png"
+                  alt="Rectangle56I713"
+                  class="fitness-rectangle56"
+                />
+                <span class="fitness-text61">Join</span>
+                <img
+                  src="public/external/imagei713-9pwf-300h.png"
+                  alt="imageI713"
+                  class="fitness-image1"
+                />
+              </div>
+              <div class="fitness-group58">
+                <img
+                  src="public/external/imagei713-z2kq-300h.png"
+                  alt="imageI713"
+                  class="fitness-image3"
+                />
+                <span class="fitness-text62">7 days cardio challenge</span>
+                <span class="fitness-text63">Beginner</span>
+                <img
+                  src="public/external/rectangle59i713-erl6-200h.png"
+                  alt="Rectangle59I713"
+                  class="fitness-rectangle59"
+                />
+                <span class="fitness-text64">Join</span>
+              </div>
+              <div class="fitness-group57">
+                <div class="fitness-group56">
+                  <img
+                    src="public/external/imagei713-8o14-400w.png"
+                    alt="imageI713"
+                    class="fitness-image4"
+                  />
+                  <span class="fitness-text65">
+                    2 weeks Lean Arms challenge
+                  </span>
+                  <span class="fitness-text66">Beginner to Intermediate</span>
+                  <img
+                    src="public/external/rectangle64i713-yhqwsd-200h.png"
+                    alt="Rectangle64I713"
+                    class="fitness-rectangle64"
+                  />
+                </div>
+                <span class="fitness-text67">Join</span>
+              </div>
+              <div class="fitness-group55">
+                <img
+                  src="public/external/rectangle61i713-6pjs-600h.png"
+                  alt="Rectangle61I713"
+                  class="fitness-rectangle61"
+                />
+                <span class="fitness-text68">
+                  1 month Surya Namaskar challenge
+                </span>
+                <span class="fitness-text69">Beginner</span>
+                <img
+                  src="public/external/rectangle62i713-vclm-200h.png"
+                  alt="Rectangle62I713"
+                  class="fitness-rectangle62"
+                />
+                <span class="fitness-text70">Join</span>
+                <img
+                  src="public/external/imagei713-1mw9-400w.png"
+                  alt="imageI713"
+                  class="fitness-image5"
+                />
+              </div>
+              <div class="fitness-group54">
+                <img
+                  src="public/external/imagei713-uumc-400w.png"
+                  alt="imageI713"
+                  class="fitness-image6"
+                />
+                <span class="fitness-text71">15 days Pilates challenge</span>
+                <span class="fitness-text72">Beginner</span>
+                <img
+                  src="public/external/rectangle65i713-o57u-200h.png"
+                  alt="Rectangle65I713"
+                  class="fitness-rectangle65"
+                />
+                <span class="fitness-text73">Join</span>
+              </div>
+            </div>
+            <div class="fitness-group53">
+              <img
+                src="public/external/ellipse23i713-tfvk-200h.png"
+                alt="Ellipse23I713"
+                class="fitness-ellipse231"
+              />
+              <img
+                src="public/external/backi713-y1i-200h.png"
+                alt="BackI713"
+                class="fitness-back"
+              />
+            </div>
+            <div class="fitness-group49">
+              <img
+                src="public/external/ellipse24i713-48g1-200h.png"
+                alt="Ellipse24I713"
+                class="fitness-ellipse24"
+              />
+              <img
+                src="public/external/forwardi713-bd4f-200h.png"
+                alt="ForwardI713"
+                class="fitness-forward"
+              />
+            </div>
+          </div>
+          <img
+            src="public/external/search7135-j0bk-200h.png"
+            alt="Search7135"
+            class="fitness-search"
+          />
+          <img
+            src="public/external/expandarrow7135-i1q-200h.png"
+            alt="ExpandArrow7135"
+            class="fitness-expand-arrow16"
+          />
+          <img
+            src="public/external/expandarrow7135-5byi-200h.png"
+            alt="ExpandArrow7135"
+            class="fitness-expand-arrow17"
+          />
+          <img
+            src="public/external/expandarrow7135-52d8-200h.png"
+            alt="ExpandArrow7135"
+            class="fitness-expand-arrow18"
+          />
+          <img
+            src="public/external/expandarrow7135-a3y-200h.png"
+            alt="ExpandArrow7135"
+            class="fitness-expand-arrow19"
+          />
+          <div class="fitness-group77">
+            <div class="fitness-group761">
+              <div class="fitness-frame25">
+                <div class="fitness-group751">
+                  <div class="fitness-group741">
+                    <img
+                      src="public/external/ellipse407136-icr-200h.png"
+                      alt="Ellipse407136"
+                      class="fitness-ellipse40"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fitness-group762">
+              <div class="fitness-group752">
+                <div class="fitness-group742">
+                  <img
+                    src="public/external/robot27136-xc55-200h.png"
+                    alt="Robot27136"
+                    class="fitness-robot2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="public/external/rectangle1257136-01bc-200h.png"
+            alt="Rectangle1257136"
+            class="fitness-rectangle125"
+          />
+          <div class="fitness-frame19">
+            <div class="fitness-group10">
+              <span class="fitness-text74">NUTRISYNC</span>
+              <div class="fitness-group5">
+                <img
+                  src="public/external/naturalfood7137-p9k9-200h.png"
+                  alt="NaturalFood7137"
+                  class="fitness-natural-food3"
+                />
+                <img
+                  src="public/external/synchronize7137-a0s-200h.png"
+                  alt="Synchronize7137"
+                  class="fitness-synchronize5"
+                />
+                <img
+                  src="public/external/synchronize7137-053g-200h.png"
+                  alt="Synchronize7137"
+                  class="fitness-synchronize6"
+                />
+              </div>
+            </div>
+          </div>
+          <img
+            src="public/external/rectangle297137-mv8a-200h.png"
+            alt="Rectangle297137"
+            class="fitness-rectangle29"
+          />
+          <div class="fitness-frame20">
+            <span class="fitness-text75">Home</span>
+          </div>
+          <div class="fitness-frame21">
+            <span class="fitness-text76">Recipes &amp; Diet</span>
+          </div>
+          <div class="fitness-frame22">
+            <span class="fitness-text77">Fitness</span>
+          </div>
+          <div class="fitness-frame23">
+            <span class="fitness-text78">Health Plan</span>
+          </div>
+          <div class="fitness-group78">
+            <img
+              src="public/external/ellipse237138-k984-200h.png"
+              alt="Ellipse237138"
+              class="fitness-ellipse232"
+            />
+            <img
+              src="public/external/customer7138-tqz-200h.png"
+              alt="Customer7138"
+              class="fitness-customer"
+            />
+          </div>
+          <span class="fitness-text79">About</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
