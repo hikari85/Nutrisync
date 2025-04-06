@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./db.css" rel="stylesheet" />
+
+      <div class="db-container">
+        <div class="db-db">
+          <img
+            src="public/external/rectangle967149-rk-500w.png"
+            alt="Rectangle967149"
+            class="db-rectangle96"
+          />
+          <img
+            src="public/external/rectangle1077149-v9d-500w.png"
+            alt="Rectangle1077149"
+            class="db-rectangle107"
+          />
+          <img
+            src="public/external/rectangle1087149-qc4n-700w.png"
+            alt="Rectangle1087149"
+            class="db-rectangle108"
+          />
+          <span class="db-text10">350</span>
+          <span class="db-text11">550</span>
+          <span class="db-text12">350</span>
+          <span class="db-text13">650</span>
+          <span class="db-text14">400</span>
+          <span class="db-text15">250</span>
+          <span class="db-text16">750</span>
+          <span class="db-text17">Hi, Alex</span>
+          <span class="db-text18">Good Job Alex!!!</span>
+          <img
+            src="public/external/rectangle887150-8wh-200h.png"
+            alt="Rectangle887150"
+            class="db-rectangle88"
+          />
+          <span class="db-text19">Weight</span>
+          <img
+            src="public/external/rectangle897150-xx1k-200h.png"
+            alt="Rectangle897150"
+            class="db-rectangle89"
+          />
+          <img
+            src="public/external/rectangle917151-xwdp-200h.png"
+            alt="Rectangle917151"
+            class="db-rectangle91"
+          />
+          <img
+            src="public/external/rectangle907151-xwz7-200h.png"
+            alt="Rectangle907151"
+            class="db-rectangle90"
+          />
+          <img
+            src="public/external/rectangle927151-d9fm-700w.png"
+            alt="Rectangle927151"
+            class="db-rectangle92"
+          />
+          <img
+            src="public/external/rectangle1167151-7chd-200h.png"
+            alt="Rectangle1167151"
+            class="db-rectangle116"
+          />
+          <span class="db-text20">Dashboard</span>
+          <img
+            src="public/external/rectangle1177151-nfo-200h.png"
+            alt="Rectangle1177151"
+            class="db-rectangle117"
+          />
+          <span class="db-text21">Account</span>
+          <img
+            src="public/external/rectangle1187151-00aq-200h.png"
+            alt="Rectangle1187151"
+            class="db-rectangle118"
+          />
+          <span class="db-text22">Support</span>
+          <div class="db-group79"></div>
+          <span class="db-text23">Log Out</span>
+          <span class="db-text24">Goal Weight</span>
+          <span class="db-text25">Sleep Intake</span>
+          <span class="db-text26">Water Intake</span>
+          <span class="db-text27">72Kg</span>
+          <span class="db-text28">52Kg</span>
+          <span class="db-text29">6hrs</span>
+          <span class="db-text30">3.7 Lt</span>
+          <img
+            src="public/external/ellipse257152-00ba-200h.png"
+            alt="Ellipse257152"
+            class="db-ellipse25"
+          />
+          <img
+            src="public/external/ellipse297153-2u9x6-200h.png"
+            alt="Ellipse297153"
+            class="db-ellipse29"
+          />
+          <img
+            src="public/external/ellipse267153-ykgb-300h.png"
+            alt="Ellipse267153"
+            class="db-ellipse26"
+          />
+          <img
+            src="public/external/ellipse287153-bl0r-300w.png"
+            alt="Ellipse287153"
+            class="db-ellipse28"
+          />
+          <img
+            src="public/external/ellipse347153-onw-300h.png"
+            alt="Ellipse347153"
+            class="db-ellipse34"
+          />
+          <img
+            src="public/external/ellipse357153-k3ch-300w.png"
+            alt="Ellipse357153"
+            class="db-ellipse35"
+          />
+          <img
+            src="public/external/ellipse387153-16lq-300w.png"
+            alt="Ellipse387153"
+            class="db-ellipse38"
+          />
+          <img
+            src="public/external/ellipse367153-082i-200h.png"
+            alt="Ellipse367153"
+            class="db-ellipse36"
+          />
+          <img
+            src="public/external/ellipse377153-dgz-200h.png"
+            alt="Ellipse377153"
+            class="db-ellipse37"
+          />
+          <img
+            src="public/external/ellipse277153-kda-300h.png"
+            alt="Ellipse277153"
+            class="db-ellipse27"
+          />
+          <img
+            src="public/external/ellipse307153-ggz4-200h.png"
+            alt="Ellipse307153"
+            class="db-ellipse30"
+          />
+          <span class="db-text31">2.3 hrs</span>
+          <span class="db-text32">1,876 cal</span>
+          <span class="db-text33">750 cal</span>
+          <span class="db-text34">1,876 cal</span>
+          <img
+            src="public/external/ellipse317154-llzq-200h.png"
+            alt="Ellipse317154"
+            class="db-ellipse31"
+          />
+          <img
+            src="public/external/ellipse327154-xwf-200h.png"
+            alt="Ellipse327154"
+            class="db-ellipse32"
+          />
+          <img
+            src="public/external/ellipse337154-7pu-200h.png"
+            alt="Ellipse337154"
+            class="db-ellipse33"
+          />
+          <span class="db-text35">Workout time</span>
+          <span class="db-text36">Calories burned</span>
+          <span class="db-text37">Calories Intake</span>
+          <span class="db-text38">Nutri Tracker</span>
+          <div class="db-group73">
+            <img
+              src="public/external/line147155-sc9d.svg"
+              alt="Line147155"
+              class="db-line14"
+            />
+            <img
+              src="public/external/vector17155-3knq.svg"
+              alt="Vector17155"
+              class="db-vector1"
+            />
+          </div>
+          <span class="db-text39">Carbs</span>
+          <span class="db-text40">Protein</span>
+          <span class="db-text41">
+            <span>Calories</span>
+            <br />
+            <span>Intake</span>
+          </span>
+          <span class="db-text45">Fat</span>
+          <span class="db-text46">Sessions attended this week</span>
+          <span class="db-text47">Calories burned this week</span>
+          <span class="db-text48">Yoga</span>
+          <span class="db-text49">Dance</span>
+          <span class="db-text50">Strength</span>
+          <span class="db-text51">Edit</span>
+          <span class="db-text52">Mon</span>
+          <span class="db-text53">Tues</span>
+          <span class="db-text54">Wed</span>
+          <span class="db-text55">Thus</span>
+          <span class="db-text56">Fri</span>
+          <span class="db-text57">Sat</span>
+          <span class="db-text58">Sun</span>
+          <img
+            src="public/external/rectangle987157-0j5s-200w.png"
+            alt="Rectangle987157"
+            class="db-rectangle98"
+          />
+          <img
+            src="public/external/rectangle997157-u4uk-200w.png"
+            alt="Rectangle997157"
+            class="db-rectangle99"
+          />
+          <img
+            src="public/external/rectangle1007157-lyq-200w.png"
+            alt="Rectangle1007157"
+            class="db-rectangle100"
+          />
+          <img
+            src="public/external/rectangle1017157-yu1b-200w.png"
+            alt="Rectangle1017157"
+            class="db-rectangle101"
+          />
+          <img
+            src="public/external/rectangle1027157-1htq-200w.png"
+            alt="Rectangle1027157"
+            class="db-rectangle102"
+          />
+          <img
+            src="public/external/rectangle1037157-g6wl-200w.png"
+            alt="Rectangle1037157"
+            class="db-rectangle103"
+          />
+          <img
+            src="public/external/rectangle1047157-nvu-200w.png"
+            alt="Rectangle1047157"
+            class="db-rectangle104"
+          />
+          <img
+            src="public/external/rectangle1057157-4vk-200w.png"
+            alt="Rectangle1057157"
+            class="db-rectangle105"
+          />
+          <img
+            src="public/external/rectangle1067157-dqa-200w.png"
+            alt="Rectangle1067157"
+            class="db-rectangle106"
+          />
+          <img
+            src="public/external/rectangle1097158-zc7-200w.png"
+            alt="Rectangle1097158"
+            class="db-rectangle109"
+          />
+          <img
+            src="public/external/rectangle1107158-m25v-200w.png"
+            alt="Rectangle1107158"
+            class="db-rectangle110"
+          />
+          <img
+            src="public/external/rectangle1117158-h7fq-200w.png"
+            alt="Rectangle1117158"
+            class="db-rectangle111"
+          />
+          <img
+            src="public/external/rectangle1127158-6va-200w.png"
+            alt="Rectangle1127158"
+            class="db-rectangle112"
+          />
+          <img
+            src="public/external/rectangle1137158-b9ng-200w.png"
+            alt="Rectangle1137158"
+            class="db-rectangle113"
+          />
+          <img
+            src="public/external/rectangle1147158-uuqp-200w.png"
+            alt="Rectangle1147158"
+            class="db-rectangle114"
+          />
+          <img
+            src="public/external/rectangle1157158-cgya-200w.png"
+            alt="Rectangle1157158"
+            class="db-rectangle115"
+          />
+          <div class="db-group9">
+            <span class="db-text59">NUTRISYNC</span>
+            <div class="db-group5">
+              <img
+                src="public/external/naturalfood7159-2ttv-200h.png"
+                alt="NaturalFood7159"
+                class="db-natural-food"
+              />
+              <img
+                src="public/external/synchronize7159-w9yn-200h.png"
+                alt="Synchronize7159"
+                class="db-synchronize1"
+              />
+              <img
+                src="public/external/synchronize7159-cv6u-200h.png"
+                alt="Synchronize7159"
+                class="db-synchronize2"
+              />
+            </div>
+          </div>
+          <img
+            src="public/external/ellipse237159-kzyq-200h.png"
+            alt="Ellipse237159"
+            class="db-ellipse23"
+          />
+          <img
+            src="public/external/customer7159-f1t-200h.png"
+            alt="Customer7159"
+            class="db-customer"
+          />
+          <img
+            src="public/external/logoutrounded7159-4vx9-200h.png"
+            alt="LogoutRounded7159"
+            class="db-logout-rounded"
+          />
+          <div class="db-group82">
+            <div class="db-group81"><span class="db-text60">Home</span></div>
+          </div>
+          <div class="db-group80">
+            <img
+              src="public/external/homepage7160-kvsh-200h.png"
+              alt="HomePage7160"
+              class="db-home-page"
+            />
+          </div>
+          <span class="db-text61">40% 737 cal</span>
+          <span class="db-text62">30% 560 cal</span>
+          <span class="db-text63">30% 560 cal</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

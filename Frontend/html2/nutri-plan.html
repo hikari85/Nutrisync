@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./nutri-plan.css" rel="stylesheet" />
+
+      <div class="nutri-plan-container">
+        <div class="nutri-plan-nutri-plan">
+          <img
+            src="public/external/unsplash748mai03sjy7107-u4zg-400h.png"
+            alt="unsplash748Mai03SJY7107"
+            class="nutri-plan-unsplash748-mai03sjy"
+          />
+          <img
+            src="public/external/unsplash7yb08bmyhmq7108-pphl-400h.png"
+            alt="unsplash7yb08BMYhmQ7108"
+            class="nutri-plan-unsplash7yb08bm-yhm-q"
+          />
+          <img
+            src="public/external/unsplashtkzdkvn1aya7108-2adn-400h.png"
+            alt="unsplashTkzdkVn1AyA7108"
+            class="nutri-plan-unsplash-tkzdk-vn1-ay-a"
+          />
+          <img
+            src="public/external/unsplashrhysfxb0wa07108-ffb-400h.png"
+            alt="unsplashRhySFXb0Wa07108"
+            class="nutri-plan-unsplash-rhy-sf-xb0-wa0"
+          />
+          <img
+            src="public/external/rectangle347108-1jyc-200h.png"
+            alt="Rectangle347108"
+            class="nutri-plan-rectangle34"
+          />
+          <span class="nutri-plan-text10">Masala Idli</span>
+          <span class="nutri-plan-text11">Noodles</span>
+          <span class="nutri-plan-text12">Ragi Malt</span>
+          <span class="nutri-plan-text13">Brownnie</span>
+          <span class="nutri-plan-text14">Salad</span>
+          <span class="nutri-plan-text15">Cheesecake</span>
+          <span class="nutri-plan-text16">Milkshake</span>
+          <span class="nutri-plan-text17">Gajar Halwa</span>
+          <span class="nutri-plan-text18">Soup</span>
+          <span class="nutri-plan-text19">Sushi</span>
+          <span class="nutri-plan-text20">Chapati roll</span>
+          <span class="nutri-plan-text21">Pizza</span>
+          <span class="nutri-plan-text22">Quinoa Rice and curry</span>
+          <span class="nutri-plan-text23">Pancakes</span>
+          <span class="nutri-plan-text24">Avacado Toast</span>
+          <span class="nutri-plan-text25">Yogurt and berrys</span>
+          <img
+            src="public/external/rectangle307110-fxmg-200h.png"
+            alt="Rectangle307110"
+            class="nutri-plan-rectangle30"
+          />
+          <div class="nutri-plan-group32">
+            <img
+              src="public/external/image27110-q6sq-200w.png"
+              alt="image27110"
+              class="nutri-plan-image210"
+            />
+            <span class="nutri-plan-text26">10 mins</span>
+          </div>
+          <img
+            src="public/external/rectangle327110-5u5c-200h.png"
+            alt="Rectangle327110"
+            class="nutri-plan-rectangle32"
+          />
+          <img
+            src="public/external/rectangle337110-s8s-200h.png"
+            alt="Rectangle337110"
+            class="nutri-plan-rectangle33"
+          />
+          <div class="nutri-plan-group33">
+            <img
+              src="public/external/image27110-gvif-200w.png"
+              alt="image27110"
+              class="nutri-plan-image211"
+            />
+            <span class="nutri-plan-text27">5 mins</span>
+          </div>
+          <div class="nutri-plan-group34">
+            <img
+              src="public/external/image27111-2h6p-200w.png"
+              alt="image27111"
+              class="nutri-plan-image212"
+            />
+            <span class="nutri-plan-text28">10 mins</span>
+          </div>
+          <div class="nutri-plan-group35">
+            <img
+              src="public/external/image27111-1ec7-200w.png"
+              alt="image27111"
+              class="nutri-plan-image213"
+            />
+            <span class="nutri-plan-text29">10 mins</span>
+          </div>
+          <img
+            src="public/external/unsplashwrfo9swykde7111-wa-300h.png"
+            alt="unsplashwrfO9SWykdE7111"
+            class="nutri-plan-unsplashwrf-o9s-wykd-e"
+          />
+          <img
+            src="public/external/unsplashj04bd4ysoh87111-9e7l-300h.png"
+            alt="unsplashJ04BD4ysoh87111"
+            class="nutri-plan-unsplash-j04bd4ysoh8"
+          />
+          <img
+            src="public/external/unsplashmqt0asuoicu7111-hlvp-300h.png"
+            alt="unsplashMqT0asuoIcU7111"
+            class="nutri-plan-unsplash-mq-t0asuo-ic-u"
+          />
+          <img
+            src="public/external/unsplashrelovb0rrce7111-w196-300h.png"
+            alt="unsplashRELOvb0rrCE7111"
+            class="nutri-plan-unsplash-rel-ovb0rr-ce"
+          />
+          <img
+            src="public/external/rectangle357111-bmg9-200h.png"
+            alt="Rectangle357111"
+            class="nutri-plan-rectangle35"
+          />
+          <img
+            src="public/external/rectangle367112-xmdn-200h.png"
+            alt="Rectangle367112"
+            class="nutri-plan-rectangle36"
+          />
+          <img
+            src="public/external/rectangle377112-1ycb-200h.png"
+            alt="Rectangle377112"
+            class="nutri-plan-rectangle37"
+          />
+          <img
+            src="public/external/rectangle387112-1qbn-200h.png"
+            alt="Rectangle387112"
+            class="nutri-plan-rectangle38"
+          />
+          <div class="nutri-plan-group36">
+            <img
+              src="public/external/image27112-wkv4-200w.png"
+              alt="image27112"
+              class="nutri-plan-image214"
+            />
+            <span class="nutri-plan-text30">20 mins</span>
+          </div>
+          <div class="nutri-plan-group37">
+            <img
+              src="public/external/image27112-ai79-200w.png"
+              alt="image27112"
+              class="nutri-plan-image215"
+            />
+            <span class="nutri-plan-text31">30 mins</span>
+          </div>
+          <div class="nutri-plan-group39">
+            <img
+              src="public/external/image27113-u888j-200w.png"
+              alt="image27113"
+              class="nutri-plan-image216"
+            />
+            <span class="nutri-plan-text32">20 mins</span>
+          </div>
+          <div class="nutri-plan-group38">
+            <img
+              src="public/external/image27113-hi7a-200w.png"
+              alt="image27113"
+              class="nutri-plan-image217"
+            />
+            <span class="nutri-plan-text33">20 mins</span>
+          </div>
+          <img
+            src="public/external/image47113-afv-300h.png"
+            alt="image47113"
+            class="nutri-plan-image4"
+          />
+          <img
+            src="public/external/unsplashoda9n1dpd9w7113-vgoa-300w.png"
+            alt="unsplashoDa9n1dpd9w7113"
+            class="nutri-plan-unsplasho-da9n1dpd9w"
+          />
+          <img
+            src="public/external/rectangle397113-i9c-200h.png"
+            alt="Rectangle397113"
+            class="nutri-plan-rectangle39"
+          />
+          <img
+            src="public/external/unsplashigfigp5onv07113-lio-300h.png"
+            alt="unsplashIGfIGP5ONV07113"
+            class="nutri-plan-unsplash-i-gf-igp5onv0"
+          />
+          <img
+            src="public/external/unsplashfxjtlgdh287113-qhfn-300h.png"
+            alt="unsplashfxJTlgDh287113"
+            class="nutri-plan-unsplashfx-j-tlg-dh28"
+          />
+          <div class="nutri-plan-group40">
+            <img
+              src="public/external/image27114-9goa-200w.png"
+              alt="image27114"
+              class="nutri-plan-image218"
+            />
+            <span class="nutri-plan-text34">15 mins</span>
+          </div>
+          <img
+            src="public/external/rectangle407114-mlzj-200h.png"
+            alt="Rectangle407114"
+            class="nutri-plan-rectangle40"
+          />
+          <div class="nutri-plan-group41">
+            <img
+              src="public/external/image27114-odu5-200w.png"
+              alt="image27114"
+              class="nutri-plan-image219"
+            />
+            <span class="nutri-plan-text35">15 mins</span>
+          </div>
+          <img
+            src="public/external/rectangle417114-ow0t-200h.png"
+            alt="Rectangle417114"
+            class="nutri-plan-rectangle41"
+          />
+          <div class="nutri-plan-group42">
+            <img
+              src="public/external/image27114-tppi-200w.png"
+              alt="image27114"
+              class="nutri-plan-image220"
+            />
+            <span class="nutri-plan-text36">20 mins</span>
+          </div>
+          <img
+            src="public/external/rectangle427115-2uk-200h.png"
+            alt="Rectangle427115"
+            class="nutri-plan-rectangle42"
+          />
+          <div class="nutri-plan-group43">
+            <img
+              src="public/external/image27115-9mcb-200w.png"
+              alt="image27115"
+              class="nutri-plan-image221"
+            />
+            <span class="nutri-plan-text37">20 mins</span>
+          </div>
+          <img
+            src="public/external/image57115-9d3e-300w.png"
+            alt="image57115"
+            class="nutri-plan-image5"
+          />
+          <img
+            src="public/external/image67115-ok9u-300w.png"
+            alt="image67115"
+            class="nutri-plan-image6"
+          />
+          <img
+            src="public/external/rectangle437115-8b1-200h.png"
+            alt="Rectangle437115"
+            class="nutri-plan-rectangle43"
+          />
+          <div class="nutri-plan-group44">
+            <img
+              src="public/external/image27115-xzar-200w.png"
+              alt="image27115"
+              class="nutri-plan-image222"
+            />
+            <span class="nutri-plan-text38">15 mins</span>
+          </div>
+          <img
+            src="public/external/rectangle477116-2uw-200h.png"
+            alt="Rectangle477116"
+            class="nutri-plan-rectangle47"
+          />
+          <img
+            src="public/external/unsplash7ter1a1mupm7116-2wbd-300w.png"
+            alt="unsplash7TeR1A1MUpM7116"
+            class="nutri-plan-unsplash7-te-r1a1m-up-m"
+          />
+          <img
+            src="public/external/rectangle467116-d2xa-200h.png"
+            alt="Rectangle467116"
+            class="nutri-plan-rectangle46"
+          />
+          <img
+            src="public/external/unsplashq5mppgld5zk7116-9uim-300w.png"
+            alt="unsplashQ5mPPGld5Zk7116"
+            class="nutri-plan-unsplash-q5m-pp-gld5-zk"
+          />
+          <img
+            src="public/external/rectangle457116-7hdq-200h.png"
+            alt="Rectangle457116"
+            class="nutri-plan-rectangle45"
+          />
+          <div class="nutri-plan-group45">
+            <img
+              src="public/external/image27116-8a1y-200w.png"
+              alt="image27116"
+              class="nutri-plan-image223"
+            />
+            <span class="nutri-plan-text39">15 mins</span>
+          </div>
+          <div class="nutri-plan-group46">
+            <img
+              src="public/external/image27117-3vf-200w.png"
+              alt="image27117"
+              class="nutri-plan-image224"
+            />
+            <span class="nutri-plan-text40">15 mins</span>
+          </div>
+          <div class="nutri-plan-group47">
+            <img
+              src="public/external/image27117-adfq-200w.png"
+              alt="image27117"
+              class="nutri-plan-image225"
+            />
+            <span class="nutri-plan-text41">15 mins</span>
+          </div>
+          <img
+            src="public/external/rectangle487117-u3yb-200h.png"
+            alt="Rectangle487117"
+            class="nutri-plan-rectangle48"
+          />
+          <span class="nutri-plan-text42">
+            “Search for diet plans or recipes...”
+          </span>
+          <img
+            src="public/external/rectangle187117-g8ls-1600w.png"
+            alt="Rectangle187117"
+            class="nutri-plan-rectangle18"
+          />
+          <span class="nutri-plan-text43">Home</span>
+          <span class="nutri-plan-text44">AI chat suggestions</span>
+          <span class="nutri-plan-text45">Dashboard</span>
+          <span class="nutri-plan-text46">Contact: +914567891010</span>
+          <span class="nutri-plan-text47">About us</span>
+          <span class="nutri-plan-text48">Meal Plans</span>
+          <span class="nutri-plan-text49">Recipes</span>
+          <span class="nutri-plan-text50">Contact Us</span>
+          <span class="nutri-plan-text51">NUTRISYNC</span>
+          <div class="nutri-plan-group8">
+            <span class="nutri-plan-text52">Start Today</span>
+          </div>
+          <div class="nutri-plan-group6">
+            <img
+              src="public/external/naturalfood7119-69wq-200h.png"
+              alt="NaturalFood7119"
+              class="nutri-plan-natural-food1"
+            />
+            <img
+              src="public/external/synchronize7119-mmcx-200h.png"
+              alt="Synchronize7119"
+              class="nutri-plan-synchronize1"
+            />
+            <img
+              src="public/external/synchronize7119-dzcd-200h.png"
+              alt="Synchronize7119"
+              class="nutri-plan-synchronize2"
+            />
+          </div>
+          <div class="nutri-plan-group7">
+            <img
+              src="public/external/naturalfood7119-c3em-200h.png"
+              alt="NaturalFood7119"
+              class="nutri-plan-natural-food2"
+            />
+            <img
+              src="public/external/synchronize7119-re4e-200h.png"
+              alt="Synchronize7119"
+              class="nutri-plan-synchronize3"
+            />
+            <img
+              src="public/external/synchronize7119-yzl5-200h.png"
+              alt="Synchronize7119"
+              class="nutri-plan-synchronize4"
+            />
+          </div>
+          <span class="nutri-plan-text53">
+            Your Personalized Path to a Healthier Life!
+          </span>
+          <img
+            src="public/external/search7120-gjpo-200h.png"
+            alt="Search7120"
+            class="nutri-plan-search"
+          />
+          <div class="nutri-plan-group77">
+            <div class="nutri-plan-group761">
+              <div class="nutri-plan-frame25">
+                <div class="nutri-plan-group751">
+                  <div class="nutri-plan-group741">
+                    <img
+                      src="public/external/ellipse407120-fpy-200h.png"
+                      alt="Ellipse407120"
+                      class="nutri-plan-ellipse40"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nutri-plan-group762">
+              <div class="nutri-plan-group752">
+                <div class="nutri-plan-group742">
+                  <img
+                    src="public/external/robot27121-mi3-200h.png"
+                    alt="Robot27121"
+                    class="nutri-plan-robot2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="public/external/rectangle1257121-gqc-200h.png"
+            alt="Rectangle1257121"
+            class="nutri-plan-rectangle125"
+          />
+          <div class="nutri-plan-frame19">
+            <div class="nutri-plan-group10">
+              <span class="nutri-plan-text54">NUTRISYNC</span>
+              <div class="nutri-plan-group5">
+                <img
+                  src="public/external/naturalfood7121-ayp9-200h.png"
+                  alt="NaturalFood7121"
+                  class="nutri-plan-natural-food3"
+                />
+                <img
+                  src="public/external/synchronize7121-j3wh-200h.png"
+                  alt="Synchronize7121"
+                  class="nutri-plan-synchronize5"
+                />
+                <img
+                  src="public/external/synchronize7121-1kv-200h.png"
+                  alt="Synchronize7121"
+                  class="nutri-plan-synchronize6"
+                />
+              </div>
+            </div>
+          </div>
+          <img
+            src="public/external/rectangle297121-sql-200h.png"
+            alt="Rectangle297121"
+            class="nutri-plan-rectangle29"
+          />
+          <div class="nutri-plan-frame20">
+            <span class="nutri-plan-text55">Home</span>
+          </div>
+          <div class="nutri-plan-frame21">
+            <span class="nutri-plan-text56">Recipes &amp; Diet</span>
+          </div>
+          <div class="nutri-plan-frame22">
+            <span class="nutri-plan-text57">Fitness</span>
+          </div>
+          <div class="nutri-plan-frame23">
+            <span class="nutri-plan-text58">Health Plan</span>
+          </div>
+          <div class="nutri-plan-group78">
+            <img
+              src="public/external/ellipse237122-7jx-200h.png"
+              alt="Ellipse237122"
+              class="nutri-plan-ellipse23"
+            />
+            <img
+              src="public/external/customer7123-np3-200h.png"
+              alt="Customer7123"
+              class="nutri-plan-customer"
+            />
+          </div>
+          <span class="nutri-plan-text59">About</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
