@@ -1,0 +1,32 @@
+<!-- <h1>Welcome, {{ user.name }}</h1>
+<p>Age: {{ user.age }}</p>
+<p>Height: {{ user.height }}</p>
+<p>Weight: {{ user.weight }}</p>
+<a href="{{ url_for('logout') }}">Logout</a> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard - NutriSync</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome, {{ user.name }}!</h1>
+    </header>
+    <nav>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/logout">Logout</a>
+    </nav>
+    <div class="container">
+        <p>Your Height: {{ user.height }} cm</p>
+        <p>Your Weight: {{ user.weight }} kg</p>
+        <p>Your Goal Weight: {{ user.goal_weight }} kg</p>
+        <p>Fitness Goal: {{ user.fitness_goal }}</p>
+        <p>Activity Level: {{ user.activity_level }}</p>
+        <!-- Add more personalized stats here -->
+    </div>
+</body>
+</html>
